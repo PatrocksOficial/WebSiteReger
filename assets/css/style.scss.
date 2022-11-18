@@ -1,0 +1,6 @@
+@import import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Home from './pages/Home/Home';
+import Services from './pages/Service/Services';
+import Where from './pages/Where/Where';
+import Navbar from './Components/Navbar/Navbar';
