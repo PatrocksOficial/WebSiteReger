@@ -1,0 +1,60 @@
+.Principal{
+    align-items: center;
+}
+
+.Cursos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    grid-column-gap: 3rem;
+    padding: 2rem;
+}
+
+.Curso{
+    display: block;
+    text-align: left;
+    align-items: flex-start;
+    line-height: 35px;
+    padding: 5% 10% 5% 10%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+}
+
+.CursoTitulo{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Aluno{
+    display: block;
+    width: auto;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.Professor{
+    display: block;
+    width: auto;
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.Rodape{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Logo{
+    min-width: 20%;
+    box-shadow: 5px;
+}
+
+.Descricao{
+    text-align: center;
+}
