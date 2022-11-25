@@ -9,20 +9,20 @@ const OndeEstamos = () => {
             <div className="infos_container">
                 <div className="title_aonde">
                     <h1 className="text-center">
-                        Aonde fica alocado o projeto REGER?
+                        Onde fica alocado o projeto REGER?
                     </h1>
                 </div>
 
                 <div className="info_aonde">
                     <p> O projeto REGER se encontra na Unisagrado, onde se tem como base
                         o princípio dos 5 Rs e nos ODS da ONU.
-                        Ao decorrer da faculdade, pode-se observar que as lixeiras tem um 
-                        cartaz a fim de informar o que pode e não pode ser jogado naquelas lixeiras,
-                        para facilitar o manejamento dos resíduos gerados.
+                        Ao caminhar pela faculdade, pode-se observar que as lixeiras têm um 
+                        cartaz, a fim de informar o que pode e não pode ser jogado naquelas lixeiras,
+                        com o intuito de facilitar o manejo dos resíduos gerados.
                     </p>
                     <div className="ajustar_img">
                         <img src={fotos} alt=""></img>
-                        <p className="abaixo"> Abaixo visualize o mapa a seguir da faculdade para saber aonde se locomover: </p>
+                        <p className="abaixo"> Confira abaixo o mapa da Unisagrado, para caso queira se localizar na faculdade: </p>
                         <img src={mapa} alt="" ></img>
                         <div className="img_card">
                     </div>
