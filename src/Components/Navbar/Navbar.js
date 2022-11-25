@@ -72,31 +72,47 @@ const Navbar = () => {
             <li className="nav-item active">
               <NavLink className="nav-link" to="/" exact>
                 <i 
-                className="fas fa-tachometer-alt">
-                </i>Home
+                className="fas fa-project-diagram">
+                </i>O Projeto
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about" exact>
+              <NavLink className="nav-link" to="/OqueFazemos" exact>
                 <i 
-                className="far fa-address-book">
-                </i>About
+                className="fab fa-pagelines">
+                </i>O que Fazemos
+              </NavLink> 
+            </li>
+            
+
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/ComoFazemos" exact>
+                <i 
+                className="fas fa-question">
+                </i>Como Fazemos
               </NavLink> 
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/service" exact>
+              <NavLink className="nav-link" to="/Crescemos" exact>
                 <i 
                 className="far fa-clone">
-                </i>Services
+                </i>Crescemos
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/where" exact>
+              <NavLink className="nav-link" to="/OndeEstamos" exact>
                 <i 
-                className="far fa-chart-bar">
-                </i>Where
+                className="fas fa-street-view">
+                </i>Onde Estamos
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/Dicas" exact>
+                <i 
+                className="fas fa-street-view">
+                </i>Dicas
               </NavLink>
             </li>
             <li className="nav-item">

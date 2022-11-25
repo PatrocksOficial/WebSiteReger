@@ -16,7 +16,7 @@ const Credits = () => {
                     <i className="Aluno">• Vinícius de Freitas Marques da Cunha </i>
                     <i className="Professor">Profº: Vinicius Santos Andrade </i>
                 </div>
-                <div className="Curso">
+                <div className="Curso_container2">
                     <h3 className="CursoTitulo">Design</h3>
                     <i className="Aluno">• Alicia Leite Pavanello </i>
                     <i className="Aluno">• João Pedro Barbosa Ponsoni </i>

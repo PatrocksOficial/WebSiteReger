@@ -1,0 +1,13 @@
+img, svg {
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0em 5em;
+}
+
+@media (min-width: 380px) {
+    img, svg{
+        vertical-align: middle;
+        justify-content: center;
+        padding: 0em 5em 3em 6em;
+    }
+}

@@ -6,11 +6,13 @@ import {
   Switch
 } from 'react-router-dom';
 
-import About from './pages/About/About';
+import OqueFazemos from './pages/OqueFazemos/OqueFazemos';
+import ComoFazemos from './pages/ComoFazemos/ComoFazemos';
 import Credits from './pages/Credits/Credits';
 import Home from './pages/Home/Home';
-import Services from './pages/Service/Services';
-import Where from './pages/Where/Where';
+import Crescemos from './pages/Crescemos/Crescemos';
+import OndeEstamos from './pages/OndeEstamos/OndeEstamos';
+import Dicas from './pages/Dicas/Dicas';
 import Navbar from './Components/Navbar/Navbar';
 
 const App = () => {
@@ -22,14 +24,20 @@ const App = () => {
         <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/about" exact>
-          <About/>
+        <Route path="/OqueFazemos" exact>
+          <OqueFazemos/>
         </Route>
-        <Route path="/service" exact>
-          <Services/>
+        <Route path="/ComoFazemos" exact>
+          <ComoFazemos/>
         </Route>
-        <Route path="/where" exact>
-          <Where/>
+        <Route path="/Crescemos" exact>
+          <Crescemos/>
+        </Route>
+        <Route path="/OndeEstamos" exact>
+          <OndeEstamos/>
+        </Route>
+        <Route path="/Dicas" exact>
+          <Dicas/>
         </Route>
         <Route path="/creditos" exact>
           <Credits/>
